@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  hd-wallet-address:
+    build:
+      context: ../
+      dockerfile: ./.docker/Dockerfile
+    image: hd-wallet-address
+    container_name: hd-wallet-address
+    env_file: ../.env
+
+##Network
+#     networks:
+#       - crypto-network
+#     stdin_open: true
+#     tty: true
+
+# networks:
+#   crypto-network:
+#     external:
+#       name: crypto-network

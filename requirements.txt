@@ -1,0 +1,4 @@
+flask
+python-dotenv
+Werkzeug
+py_crypto_hd_wallet
